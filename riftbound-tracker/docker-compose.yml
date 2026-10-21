@@ -1,0 +1,13 @@
+services:
+  bot:
+    build: .
+    container_name: riftbound-tracker
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      DB_PATH: /app/data/riftbound.db
+      LEGENDS_PATH: /app/data/legends.yaml
+    volumes:
+      # La base de datos y la lista de leyendas viven fuera del contenedor:
+      # sobreviven a reinicios y puedes editar legends.yaml sin reconstruir.
+      - ./data:/app/data

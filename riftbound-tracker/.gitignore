@@ -1,0 +1,19 @@
+# Secretos
+.env
+
+# Base de datos (vuestras partidas no van al repo)
+data/*.db
+data/*.db-*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Editores y sistema
+.vscode/
+.idea/
+.DS_Store

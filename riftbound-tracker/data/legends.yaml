@@ -1,0 +1,48 @@
+# Leyendas que acepta el bot (y que salen en el autocompletado).
+#
+# Edita esta lista cuando salga un set nuevo: no hace falta tocar código,
+# basta con reiniciar el bot. Las mayúsculas, tildes, espacios y apóstrofos
+# dan igual al escribir: "kaisa" se reconoce como "Kai'Sa".
+#
+# Si queréis distinguir dos versiones de la misma leyenda, ponedlas como
+# entradas separadas, p. ej. "Master Yi (Wuju Bladesman)" y "Master Yi (Wuju Master)".
+
+leyendas:
+  - Ahri
+  - Akali
+  - Annie
+  - Azir
+  - Darius
+  - Diana
+  - Draven
+  - Ezreal
+  - Fiora
+  - Garen
+  - Irelia
+  - Jax
+  - Jinx
+  - Kai'Sa
+  - Kha'Zix
+  - LeBlanc
+  - Lee Sin
+  - Leona
+  - Lillia
+  - Lucian
+  - Lux
+  - Master Yi
+  - Miss Fortune
+  - Ornn
+  - Rek'Sai
+  - Renata Glasc
+  - Rengar
+  - Rumble
+  - Sett
+  - Shen
+  - Sivir
+  - Teemo
+  - Vex
+  - Vi
+  - Viktor
+  - Volibear
+  - Yasuo
+  - Zed

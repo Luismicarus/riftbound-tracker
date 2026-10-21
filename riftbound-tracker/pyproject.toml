@@ -1,0 +1,11 @@
+[project]
+name = "riftbound-tracker"
+version = "0.1.0"
+description = "Bot de Discord para registrar partidas de testeo de Riftbound y sacar winrates por leyenda, matchup y jugador"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
